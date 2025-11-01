@@ -46,7 +46,7 @@ main {
 
 main form {
     background-color: var(--white);
-    height: 20rem;
+    height: auto;
     width: 50rem;
     box-shadow: var(--box-shadow);
     border-radius: .5rem .5rem 0 0;
@@ -54,7 +54,7 @@ main form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 2rem;
+    padding: 2rem;
 }
 
 input {
