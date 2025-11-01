@@ -1,0 +1,8 @@
+
+:root {
+    --primary: #689A48;
+    --secondary:#98C379;
+    --white:#fff;
+    --back:#000;
+    --box-shadow:1px 1px .5rem rgba(0, 0, 0, 0.5);
+}
