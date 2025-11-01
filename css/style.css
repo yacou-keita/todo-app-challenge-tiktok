@@ -7,6 +7,7 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -62,6 +63,7 @@ input {
     width: 100%;
     margin-bottom: 1.5rem;
     border-radius: .5rem;
+    outline-color: var(--primary);
 }
 
 form button {
@@ -77,4 +79,19 @@ main footer {
     height: 6rem;
     box-shadow: var(--box-shadow);
     border-radius: 0 0 .5rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    gap: 6rem;
+}
+
+footer small a {
+    color: var(--white);
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-weight: 500;
 }
