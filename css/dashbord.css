@@ -1,0 +1,43 @@
+header > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.logout {
+  background-color: var(--red);
+  color: var(--white);
+  padding: 0.8rem 2rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  height: 2.7rem;
+}
+
+.profile {
+    display: flex;
+    gap: .5rem;
+}
+
+.profile-icon {
+  background-color: var(--secondary);
+  height: 2rem;
+  width: 2rem;
+  padding: 1.3rem;
+  border-radius: 50%;
+  text-transform: uppercase;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.profile-name {
+    color: var(--white);
+}
+
+.profile-name > h4 {
+    text-transform: uppercase;
+}
