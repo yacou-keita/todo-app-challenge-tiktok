@@ -46,7 +46,7 @@ main {
   bottom: 3rem;
 }
 
-main form {
+main > form, main > div {
   background-color: var(--white);
   height: auto;
   width: 50rem;
@@ -59,7 +59,7 @@ main form {
   padding: 2rem;
 }
 
-input {
+input, select {
   border: 2px solid var(--secondary);
   padding: 1rem;
   width: 100%;

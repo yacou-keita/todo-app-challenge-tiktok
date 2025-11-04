@@ -25,9 +25,19 @@
     </header>
 
     <main>
-        <form onsubmit="window.location.href='login.html'; return false;">
+        <div onsubmit="window.location.href='login.html'; return false;">
+            <div class="search_option">
+                <input type="search" placeholder="Chercher une tâche spécifique tache">
+                <select >
+                    <option value="tous">tous</option>
+                    <option value="termier">termier</option>
+                    <option value="commencer">commencer</option>
+                    <option value="en attente">en attente</option>
+                </select>
+                <p>Tâche totale: <span>9</span></p>
+            </div>
     
-        </form>
+        </div>
         <footer></footer>
     </main>
     <footer>Yacou Keita © Tous droits réservés.</footer>

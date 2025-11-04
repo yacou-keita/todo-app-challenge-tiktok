@@ -16,8 +16,8 @@ header > div {
 }
 
 .profile {
-    display: flex;
-    gap: .5rem;
+  display: flex;
+  gap: 0.5rem;
 }
 
 .profile-icon {
@@ -35,9 +35,30 @@ header > div {
 }
 
 .profile-name {
-    color: var(--white);
+  color: var(--white);
 }
 
 .profile-name > h4 {
-    text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+.search_option {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr 0.5fr;
+  gap: 1rem;
+}
+
+.search_option input {
+  width: 100%;
+}
+
+.search_option p {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+
+.search_option p span {
+    font-weight: bold;
 }
