@@ -42,6 +42,14 @@ header > div {
   text-transform: uppercase;
 }
 
+main > div {
+  width: 70rem !important;
+}
+
+.main_footer {
+  width: 70rem !important;
+}
+
 .search_option {
   width: 100%;
   display: grid;
@@ -54,11 +62,51 @@ header > div {
 }
 
 .search_option p {
-    font-size: 1.1rem;
-    display: flex;
-    align-items: center;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
 }
 
 .search_option p span {
-    font-weight: bold;
+  font-weight: bold;
+}
+
+.task_list {
+  height: 40vh;
+  overflow: scroll;
+}
+
+.task_list div h4 {
+  font-weight: 500;
+}
+
+.task_item {
+  border-top: 1px solid var(--secondary);
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+}
+
+.action {
+    display: flex;
+    gap: 4rem;
+}
+
+.bage {
+  padding: 0.2rem 0;
+  text-align: center;
+  width: 8rem;
+  height: 1.7rem;
+  border-radius: 40px;
+}
+
+.bage-light-green {
+  background-color: var(--ligth-green);
+}
+.bage-bleu {
+  background-color: var(--bleu);
+}
+.bage-yellow {
+  background-color: var(--yellow);
 }
