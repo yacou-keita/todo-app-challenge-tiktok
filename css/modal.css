@@ -1,0 +1,45 @@
+.modal-container {
+  background-color: rgba(0, 0, 0, .5);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container form {
+    background-color: var(--white);
+    width: 40rem;
+    height: auto;
+    padding: 2rem;
+}
+
+.modal-container .modal-header {
+    margin: 0 0 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-container .modal-header h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.modal-container .modal-header i {
+    cursor: pointer;
+}
+
+.modal-container .modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container .modal-body button {
+    width: 20rem;
+}

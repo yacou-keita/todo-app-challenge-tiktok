@@ -140,9 +140,8 @@ main > div {
   border: 2px solid var(--ligth-green);
 }
 
-
-
 .action i:hover {
   color: var(--secondary);
   cursor: pointer;
 }
+
