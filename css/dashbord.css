@@ -119,13 +119,13 @@ main > div {
 }
 
 .outline-bage-yellow {
-  background-color: var(--yellow-ligth);
+  background-color: rgba(245, 233, 7, .3);
   color: var(--yellow);
   border: 2px solid var(--yellow);
 }
 
 .outline-bage-bleu {
-  background-color: rgba(133, 220, 255, .8);
+  background-color: rgba(7, 177, 245, .2);
   color: var(--bleu);
   border: 2px solid var(--bleu);
 }
