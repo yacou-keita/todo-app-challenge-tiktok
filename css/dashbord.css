@@ -86,11 +86,12 @@ main > div {
   display: grid;
   grid-template-columns: 3fr 1fr;
   align-items: center;
+  gap: 6rem;
 }
 
 .action {
-    display: flex;
-    gap: 4rem;
+  display: flex;
+  gap: 4rem;
 }
 
 .bage {
@@ -109,4 +110,28 @@ main > div {
 }
 .bage-yellow {
   background-color: var(--yellow);
+}
+
+.outline-bage {
+  padding: 0.3rem 0.2rem;
+  width: 12rem;
+  border-radius: 7px;
+}
+
+.outline-bage-yellow {
+  background-color: var(--yellow-ligth);
+  color: var(--yellow);
+  border: 2px solid var(--yellow);
+}
+
+.outline-bage-bleu {
+  background-color: rgba(133, 220, 255, .8);
+  color: var(--bleu);
+  border: 2px solid var(--bleu);
+}
+
+.outline-bage-green {
+  background-color: rgba(109, 255, 4, .3);
+  color: var(--ligth-green);
+  border: 2px solid var(--ligth-green);
 }
