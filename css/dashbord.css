@@ -118,20 +118,31 @@ main > div {
   border-radius: 7px;
 }
 
+.outline-bage span {
+  font-weight: bold;
+}
+
 .outline-bage-yellow {
-  background-color: rgba(245, 233, 7, .3);
+  background-color: rgba(245, 233, 7, 0.3);
   color: var(--yellow);
   border: 2px solid var(--yellow);
 }
 
 .outline-bage-bleu {
-  background-color: rgba(7, 177, 245, .2);
+  background-color: rgba(7, 177, 245, 0.2);
   color: var(--bleu);
   border: 2px solid var(--bleu);
 }
 
 .outline-bage-green {
-  background-color: rgba(109, 255, 4, .3);
+  background-color: rgba(109, 255, 4, 0.3);
   color: var(--ligth-green);
   border: 2px solid var(--ligth-green);
+}
+
+
+
+.action i:hover {
+  color: var(--secondary);
+  cursor: pointer;
 }
