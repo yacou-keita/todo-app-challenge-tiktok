@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>todo app | register</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script type="module" src="../js/main.js"></script>
 </head>
 
 <body>
@@ -21,7 +22,7 @@
             <h1>bienvenue sur votre gestionnaire de tache</h1>
             <button class="logout" type="button" onclick="window.Location.href='login.html'">Se deconnecter</button>
         </div>
-        <button type="submit">Ajouter une tâche</button>
+        <button type="button" id="open_modal" >Ajouter une tâche</button>
     </header>
 
     <main>
@@ -107,22 +108,23 @@
         </footer>
     </main>
     <footer>Yacou Keita © Tous droits réservés.</footer>
+    <!-- modal start -->
     <div class="modal-container">
         <div class="modal">
             <form action="" method="post">
                 <div class="modal-header">
                     <h3>nouvelle tâche ajouter</h3>
-                    <i>#</i>
-                    <!-- <i class="material-symbols-outlined">dangerous</i> -->
+                     <i id="close_modal_icon" class="material-symbols-outlined">dangerous</i>
                 </div>
                 <div class="modal-body">
                     <input type="text" placeholder="saississez le titre">
                     <textarea cols="30" rows="5" placeholder="saississez la description"></textarea>
-                    <button type="submit">Ajouter</button>
+                    <button type="button" id="close_modal_with_button">Ajouter</button>
                 </div>
             </form>
         </div>
     </div>
+    <!-- modal end -->
 </body>
 
 </html>
